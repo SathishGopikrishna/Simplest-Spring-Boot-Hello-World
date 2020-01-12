@@ -13,9 +13,9 @@ public class WelcomeController {
 		
 		//Flux
 		
-		String s="Hello World my app!!!";
+		String s="Hello World my app!!!", app = "number";
 		
 		
-		return s; //"application/json" mean this is a text not a redirect
+		return s+app; //"application/json" mean this is a text not a redirect
 	}
 }
