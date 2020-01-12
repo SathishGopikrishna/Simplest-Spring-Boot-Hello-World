@@ -13,7 +13,7 @@ public class WelcomeController {
 		
 		//Flux
 		
-		String s="Hello World my app!!!", app = "number";
+		String s="Hello World my app!!!", app = "number change";
 		
 		
 		return s+app; //"application/json" mean this is a text not a redirect
