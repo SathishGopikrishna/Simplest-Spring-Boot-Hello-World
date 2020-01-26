@@ -2,11 +2,13 @@ name: Sample
 on: push
 
 jobs: 
-	lint: 
-		name: Codelint
-		runs-on: ubuntu-16.04
-		steps:
-			- name: echo
-			  run: ls -al
-			  shell: bash
-		
+  lint: 
+    name: Codelint
+    runs-on: ubuntu-16.04
+    steps:
+      - name: list
+        run: ls -al
+        shell: bash
+      - name: echo
+        run: echo $PATH
+        shell: bash
